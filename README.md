@@ -1,44 +1,59 @@
 # MATLAB HS13 – Research Plan (Template)
 (text between brackets to be removed)
 
-> * Group Name: (be creative!)
-> * Group participants names: (alphabetically sorted by last name)
-> * Project Title: (can be changed)
+> * Group Name: Wildfire_propagation
+> * Group participants names: Mattia Bacchetta-Cattori, Anastasia Gavrilova, Daniele 
+Speziali, Francesco Stoppa
+> * Project Title: Fire propagation in a Forest with streamflow 
 
 ## General Introduction
 
-(States your motivation clearly: why is it important / interesting to solve this problem?)
-(Add real-world examples, if any)
-(Put the problem into a historical context, from what does it originate? Are there already some proposed solutions?)
+Wildfire may cause significant damage to forest and ecosystems. A mathematical 
+model of the fire propagation can be used to identify the potential of such a 
+catastrophe. 
+
 
 ## The Model
 
-(Define dependent and independent variables you want to study. Say how you want to measure them.) (Why is your model a good abtraction of the problem you want to study?) (Are you capturing all the relevant aspects of the problem?)
+We want to model a section of a fictitious forest with some special elements such: fire 
+barriers (e.g. water streams), building, etc. The fire propagation it depends on many 
+variables such wind direction, temperature, humidity, etc.
 
 
 ## Fundamental Questions
 
-(At the end of the project you want to find the answer to these questions)
-(Formulate a few, clear questions. Articulate them in sub-questions, from the more general to the more specific. )
-
+[1] How does the wildfire propagate with many different variables (wind, environment 
+temperature, humidity, etc.)? [Qualitative]
+[2] How do the parameters of the wildfire change with time (fire temperature, fire 
+speed, etc.)? [Quantitative]
+[3] When does the fire stop? (depends on humidity, type of wood, how much of the 
+wood is still untouched etc)
 
 ## Expected Results
 
-(What are the answers to the above questions that you expect to find before starting your research?)
-
+The wildfire will burn the whole forest down and then stop eventually. This process 
+won’t be symmetric: Parts of the wood will burn brighter and faster, while others will 
+need more time. This depends on many variables described above. The fire will also 
+stop at different times at different parts of the wood. A lot depends of whether the tree
+types and other conditions are randomized or if there is a scheme (e.g. a whole part of
+the wood consists only of trees of type A, the other part is a swamp etc.)
 
 ## References 
 
-(Add the bibliographic references you intend to use)
-(Explain possible extension to the above models)
-(Code / Projects Reports of the previous year)
+MASIFIRE Map based simulation of fire in forest-urban interface, Simo Hostikka & Johan
+Mangs, VTT Building and transport.
 
 
 ## Research Methods
 
-(Cellular Automata, Agent-Based Model, Continuous Modeling...) (If you are not sure here: 1. Consult your colleagues, 2. ask the teachers, 3. remember that you can change it afterwards)
+Cellular Automata
+
+First we want to understand how the parameters influence the behavior of the fire and 
+define some formulas that describe the process.
+Than we will test different initial conditions and we will analyze the different results 
+with graphics and dynamical images.
 
 
 ## Other
 
-(mention datasets you are going to use)
+http://en.wikipedia.org/wiki/Wildfire_modeling
