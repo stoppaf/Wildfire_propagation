@@ -1,5 +1,4 @@
 # MATLAB HS13 – Research Plan (Template)
-(text between brackets to be removed)
 
 > * Group Name: Wildfire_propagation
 > * Group participants names: Mattia Bacchetta-Cattori, Anastasia Gavrilova, Daniele 
@@ -22,11 +21,13 @@ variables such wind direction, temperature, humidity, etc.
 
 ## Fundamental Questions
 
-[1] How does the wildfire propagate with many different variables (wind, environment 
+*[1] How does the wildfire propagate with many different variables (wind, environment 
 temperature, humidity, etc.)? [Qualitative]
-[2] How do the parameters of the wildfire change with time (fire temperature, fire 
+
+*[2] How do the parameters of the wildfire change with time (fire temperature, fire 
 speed, etc.)? [Quantitative]
-[3] When does the fire stop? (depends on humidity, type of wood, how much of the 
+
+*[3] When does the fire stop? (depends on humidity, type of wood, how much of the 
 wood is still untouched etc)
 
 ## Expected Results
